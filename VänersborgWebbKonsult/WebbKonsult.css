@@ -9,7 +9,7 @@
 
 main{
 grid-area: main;
-height: 600px;
+height: 900px;
 width:600px;
 background-color:  #FAFAFA;
 font-style: italic;
@@ -80,27 +80,31 @@ display: flex;
 }
 main{
   width: 400px;
-  height:200px;
+  height:100%;
 }
 
 .wrapper{
 width: 100%;
-height: 400px;
+height: 500px;
 
 
 
 }
 .section1{
   width: 45%;
+  height:40%;
 }
 .section2{
   width: 45%;
+  height:40%;
 }
 .section3{
   width: 45%;
+  height:40%;
 }
 .section4{
   width: 45%;
+  height:40%;
 }
 .section5{
   width: 45%;
