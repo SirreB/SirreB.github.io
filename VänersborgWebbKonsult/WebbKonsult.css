@@ -10,7 +10,7 @@
 main{
 grid-area: main;
 height: 900px;
-width:600px;
+width:640px;
 background-color:  #FAFAFA;
 font-style: italic;
 }
@@ -92,7 +92,7 @@ height: 500px;
 }
 .section1{
   width: 45%;
-  height:40%;
+  height:30%;
 }
 .section2{
   width: 45%;
