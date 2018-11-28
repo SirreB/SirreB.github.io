@@ -7,9 +7,12 @@
     "main box";
 }
 
+
+
+
 main{
 grid-area: main;
-height: 900px;
+height: 800px;
 width:640px;
 background-color:  #FAFAFA;
 font-style: italic;
