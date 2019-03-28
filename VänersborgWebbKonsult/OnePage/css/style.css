@@ -1,0 +1,106 @@
+html{
+
+}
+
+body{
+margin: 0%;
+  overflow-y: scroll;
+}
+
+button{
+  margin-left: 650px;
+  margin-top: 200px;
+}
+
+h1{
+  margin-left: 200px;
+opacity: 1;
+text-align: center;
+}
+
+h4{
+margin: 0%;
+}
+
+
+#text2{
+}
+
+nav{
+height: 70px;
+width:100%;
+color: white;
+background-color: black;
+position: fixed;
+display: none;
+text-align: center;
+opacity: 0.5;
+}
+#Home{
+  cursor: pointer;
+}
+#Services{
+  cursor: pointer;
+}
+#Info{
+  cursor: pointer;
+}
+#Contacts{
+  cursor: pointer;
+}
+
+#first{
+  background-color: black;
+  height: 650px;
+  color: white;
+}
+#Intro{
+  margin-top:0px;
+padding-top: 100px;
+padding-right: 180px;
+}
+#text{
+  text-align: center;
+}
+#second{
+  background-color: purple;
+  height: 650px;
+
+}
+#third{
+  background-color: green;
+  height: 650px;
+
+}
+#fourth{
+  background-color: black;
+height:650px;
+}
+#personal{
+  padding-top: 70px;
+margin: 0%;
+color:  white;
+}
+#window{
+  height:240px; width:420px;
+  overflow:hidden;
+position: relative;
+margin-left: 35%;
+}
+#knapp1{
+  background:#6fa1f2;
+  position: relative;
+display: none;
+cursor: pointer;
+}
+#knapp2{
+  background:#6fa1f2;
+  margin-left: 473px;
+  width: 380px;
+position: relative;
+display: none;
+cursor: pointer;
+}
+#knappar{
+  display:flex;
+  position:relative;
