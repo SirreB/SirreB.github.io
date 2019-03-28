@@ -82,10 +82,14 @@ margin: 0%;
 color:  white;
 }
 #window{
-  height:240px; width:420px;
-  overflow:hidden;
+  height:140; width:405px;
+  overflow: hidden;
 position: relative;
 margin-left: 35%;
+}
+#Bilderna{
+  display: flex;
+  position: relative;
 }
 #knapp1{
   background:#6fa1f2;

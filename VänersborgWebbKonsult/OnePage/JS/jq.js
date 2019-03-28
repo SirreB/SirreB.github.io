@@ -4,7 +4,10 @@ $( document ).ready(function() {
   $("nav").show();
   $("nav").css({"display":"flex"});
   $("body").css({"overflow-y":"hidden"});
-
+//  $("#window").css({"overflow:":"hidden"});
+  //$("#window").css({"height:":"240px"});
+  //$("#window").css({"width:":"420px"});
+//height:240px; width:420px;
 
   $("#username").keyup(function(){
 
@@ -103,25 +106,25 @@ $("#Contacts").click(function(){
 
 $("#knapp1").click(function(){
 var rv=$('#window').css('right');
-if(rv=="1260px"){
+if(rv=="810 px"){
 
-$("#window").animate({right:"+=0px"});
+$("#Bilderna").animate({right:"+=0px"});
 
 }else{
 
-$("#window").animate({right:"+=420px"});
+$("#Bilderna").animate({right:"+=405px"});
 
 }
 
 });
 $("#knapp2").click(function(){
-  var rv=$('#window').css('right');   //rv är bara en variabel för att kolla vart Bilderna är
+  var rv=$('#Bilderna').css('right');   //rv är bara en variabel för att kolla vart Bilderna är
   if(rv=="0px"){
 
-  $("#window").animate({right:"+=0px"});    //Gör så att den inte rör sig alls
+  $("#Bilderna").animate({right:"+=0px"});    //Gör så att den inte rör sig alls
 
   }else{
 
-  $("#window").animate({right:"-=420px"});//Här är den vanliga koden så att den kan röra sig
+  $("#Bilderna").animate({right:"-=405px"});//Här är den vanliga koden så att den kan röra sig
 }
 });
