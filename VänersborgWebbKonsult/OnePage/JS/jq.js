@@ -1,23 +1,24 @@
-$( document ).ready(function() {
+$(document).ready(function () {
   $("#knapp1").show();
   $("#knapp2").show();
   $("nav").show();
-  $("nav").css({"display":"flex"});
-  $("body").css({"overflow-y":"hidden"});
+  $("#fieldset").show();
+  $("nav").css({"display": "flex"});
+  $("body").css({"overflow-y": "hidden"});
 //  $("#window").css({"overflow:":"hidden"});
   //$("#window").css({"height:":"240px"});
-  //$("#window").css({"width:":"420px"});
+//  $("#window").css({"max-width:":"405px"});
 //height:240px; width:420px;
 
-  $("#username").keyup(function(){
+  $("#username").keyup(function () {
 
-        var re = /^[a-ö]{3,15}$/;    //måste börja med 2 st nollor, sedan 0-9 minst 6st max 15 där efter får de ej finnas något
+        var re = /^[A-Za-z0-9]{3,15}$/;
 
         var OK = re.exec($('#username').val());
 
         if (!OK) {
 
-        $("#text2").text("Användarnamnet måste vara mellan 3-15 bokstäver");
+        $("#text2").text("Användarnamnet måste vara mellan 3-15 karaktärer långt (A-Z, 0-9,)");
 
         }
         else{
@@ -35,13 +36,13 @@ $( document ).ready(function() {
         });
         $("#pass").keyup(function(){
 
-              var re = /^[a-ö]{3,15}$/;    //måste börja med 2 st nollor, sedan 0-9 minst 6st max 15 där efter får de ej finnas något
+              var re = /^[A-Za-z0-9]{3,15}$/;    //måste börja med 2 st nollor, sedan 0-9 minst 6st max 15 där efter får de ej finnas något
 
               var OK = re.exec($('#pass').val());
 
               if (!OK) {
 
-              $("#text3").text("Lösenordet måste vara mellan 3-15 bokstäver");
+              $("#text3").text("Lösenordet måste vara mellan 3-15 karaktärer långt (A-Z, 0-9)");
 
               }
               else{
@@ -105,14 +106,19 @@ $("#Contacts").click(function(){
 });
 
 $("#knapp1").click(function(){
-var rv=$('#window').css('right');
-if(rv=="810 px"){
+
+var rv=$('#Bilderna').css('right');
+
+if(rv=="810px"){
 
 $("#Bilderna").animate({right:"+=0px"});
+
 
 }else{
 
 $("#Bilderna").animate({right:"+=405px"});
+
+console.log("hej");
 
 }
 

@@ -1,43 +1,45 @@
 <!DOCTYPE html>
 <html lang="sv" dir="ltr">
   <head>
+    <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+
     <link rel="stylesheet" href="../css/style.css">
     <meta charset="utf-8">
-    <title>One Page</title>
+    <title>AI Vänersborg</title>
   </head>
   <body>
     <nav>
 
 
 
-    <h1 id="Home">  Home </h1> <h1 id="Services">Services</h1> <h1 id="Info"> Information</h1> <h1 id="Contacts">Contacts</h1>
+    <h1 id="Home">  Home </h1> <h1 id="Services">Tjänster</h1> <h1 id="Info"> Information</h1> <h1 id="Contacts">Kontakter</h1>
 
     </nav>
 <section id="first">
-  <h1 id="Intro">Välkommen Till Denna One-Page</h1>
+  <h1 id="Intro">Välkommen till AI Vänersborgs hemsida</h1>
 
 
-  <h2 id="text">I denna hemsida kan du hitta det vi kan erbjuda och vad vi håller på med. <br>
+  <h2 id="text">I denna hemsida kan du hitta det vi kan erbjuda och vad vi specialiserar oss i. <br>
   Använd baren ovan för att navigera genom hemsidan <br>
 Glöm inte att skapa ett konto för att kunna beställa och prata med personal</h2>
-<fieldset>
+<fieldset id="fieldset">
   <legend> Skapa Konto</legend>
 <form action="svar.php" method="get">
 
-    <label for="user">Användarnamn</label>
+    <label for="username">Användarnamn</label>
 
 
-    <input type="text" name="username"id="username">
+    <input type="text" name="username" id="username">
 <span id="text2"></span>
     <br>
     <br>
-    <label for="user">Lösenord</label>
-    <input type="text" name="pass"id="pass">
+    <label for="pass">Lösenord</label>
+    <input type="password" name="pass" id="pass">
     <span id="text3"></span>
     <br>
-    <label for="gen">Kön</label>
-    Male<input type="radio" id="gen" name="gender" value="male">
-    Female<input type="radio" id="gen" name="gender" value="female">
+    <label for="genMale">Kön:</label>
+    Man <input type="radio" id="genMale" name="gender" value="male">
+    Kvinna <input type="radio" id="genFemale" name="gender" value="female">
   <br>
 
      <input type="submit" name="sub" value="Skapa">
@@ -46,10 +48,51 @@ Glöm inte att skapa ett konto för att kunna beställa och prata med personal</
 </fieldset>
 </section>
 <section id="second">
+<h1 id="erbjuda">Vad vi kan erbjuda för tjänster</h1>
+
+
+<p id="ruta1">Vi här på AI Vänersborg kan skapa flera olika slags AI:s just för dig. Vi har olika priser för de olika typerna.
+Här är en kort beskrivning av olika slags AI som vi kan erbjuda:<br><br>
+ Algoritm baserad AI: En AI som, med hjälp av en algoritm, filtrerar ut innehåll
+eller hittar saker som inte följer den algoritmen den har getts. Är bra för att ha på olika hemsidor där man vill ha en viss censur.
+Men kan även funka för att hitta vad som är mest populärt på en hemsida och för att sortera relevant data.<br>
+<br> Självkörande AI: En AI som kan ta sig runt utan problem. Med hjälp av kameror och scanners kan den anpassa sig till sin omgiovning
+och hitta runt själv. Funkar på mindre maskiner men även på bilar.<br>
+<br>Robot AI: En AI som bygger saker efter en viss planering. Är ytterst noggran och utför sina uppgifter med ytterst precision.
+Är bra för att göra saker snabbt och enkelt. </p>
+
+<div id="bild1">
+
+
+<img src="../imgs/Tesla.png" alt="Självkörande Bil">
+</div>
+<h2 id="ruta2">Priser:<br><br>
+Algoritm baserad AI: 3500kr (Algoritm ingår)<br><br>
+Självkörande AI: 1500-5500kr (Priset varierar beroende på maskinen)
+<br><br>Robot AI: 2000kr </h2>
 
 </section>
 <section id="third">
+<h1 id="Infor">Information om vårat företag</h1>
 
+<h2 id="ruta3">Vänersborg AI är ett certifierat och respekterat företag som har följt med i utvecklingen.
+2026 så lyckades vi sälja över 1000 AI:s till nöjda kunder. Detta företag grundades 2019
+av Karl-Bertil Pettersson som fortfarande sitter som VD för företaget. Han har med hjälp
+av fantastiska medarbetare lyckats bygga detta företag från grunden. Idag, 8 år senare,
+så har företaget över 70 anställda och finns på 3 olika platser i Sverige.
+<br><br> Vi gör AI för alla sorters personer, för de som vill ha hjälp med arbete på plats.
+För de som vill ha kontroll över sin hemsida på The World Wide Web och för de som vill ha en
+maskin som kan röra på sig själv och kan utföra uppgifter.
+<br><br> Personalen här är väl utvalda och bland de bästa när det kommer
+till AI och machine learning. Vi får årligen över 100 ansökande men bara de som abolut förtjänar
+det får rollen på detta företag. Alla är bra på kommunikation och har kunskap över flera områden.
+Nedan får du de tre grundarna samt de andra som sitter högt upp.
+</h2>
+<div id="gäng">
+
+<img src="../imgs/Grupp.png" alt="Arbetare">
+
+</div>
 </section>
 <section id="fourth">
   <h1 id="personal">Personal</h1>
@@ -58,14 +101,14 @@ Glöm inte att skapa ett konto för att kunna beställa och prata med personal</
 
       <div id="Bilderna">
         <img src="../imgs/Albs.jpg" alt="Personal1">
-        <img src="../imgs/Bengt Bengtsson.jpg" alt="Personal2">
-        <img src="../imgs/Brolle Brollesson.jpg" alt="Personal3">
+        <img src="../imgs/Bengt_Bengtsson.jpg" alt="Personal2">
+        <img src="../imgs/Brolle_Brollesson.jpg" alt="Personal3">
         <img src="../imgs/Calle.jpg" alt="Personal4">
         <img src="../imgs/Erik.jpg" alt="Personal5">
         <img src="../imgs/image.jpg" alt="Personal6">
         <img src="../imgs/OSCAAAAAAAAAAAAAAAAR.jpg" alt="Personal7">
         <img src="../imgs/smink.jpg" alt="Personal8">
-        <img src="../imgs/Tor-Lejf Tor-Lejfsson.jpg" alt="Personal9">
+        <img src="../imgs/Tor-Lejf_Tor-Lejfsson.jpg" alt="Personal9">
       </div>
 
   </div>
@@ -79,6 +122,14 @@ Glöm inte att skapa ett konto för att kunna beställa och prata med personal</
         </div>
 
         </div>
+        <h3 id="ruta4">
+          Från vänster: Karl-Bertil "Långslang" Pettersson, Mikael "Thanos" Gunnarsson, Vilfred "The Chad" Svensson,
+          Tor Rex, Göran "Räven" Barberblad, Lo "Döden" Gran,
+          Bror "Benjäveln" Spandex, Tyler "Sminkarn" Smith, Bengt "Raggarn" Bjäd<br><br>
+          Kontaktperson: Bertil Bertilsson 07023489328 bertanB@AIVänersborg.nu
+          <br> Detta är en skoluppgift och kontakterna är fake.
+
+        </h3>
 </section>
 
 

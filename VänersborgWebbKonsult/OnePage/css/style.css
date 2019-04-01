@@ -7,24 +7,13 @@ margin: 0%;
   overflow-y: scroll;
 }
 
-button{
-  margin-left: 650px;
-  margin-top: 200px;
-}
-
 h1{
   margin-left: 200px;
 opacity: 1;
 text-align: center;
 }
 
-h4{
-margin: 0%;
-}
 
-
-#text2{
-}
 
 nav{
 height: 70px;
@@ -51,27 +40,85 @@ opacity: 0.5;
 
 #first{
   background-color: black;
-  height: 650px;
+  height: 750px;
   color: white;
 }
 #Intro{
+  text-align: center;
   margin-top:0px;
 padding-top: 100px;
 padding-right: 180px;
+font-family: 'Aldrich', Times, serif;
+font-size: 40px;
 }
 #text{
   text-align: center;
 }
+#fieldset{
+  display: none;
+}
 #second{
-  background-color: purple;
+  background-color: #409f;
   height: 650px;
+  background: url(../imgs/Bakgrund1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#erbjuda{
+margin: 0%;
+display: flex;
+padding-top: 70px;
+font-family: 'Aldrich', Times, serif;
+font-size: 35px;
 
+}
+
+#ruta1{
+  height: 310px;
+  width: 600px;
+  float: right;
+  font-size: 17px;
+  font-family:  'Aldrich', Times, serif;
+}
+#ruta2{
+ width: 600px;
+
+ background-repeat: no-repeat;
+
+ font-family:  'Aldrich', Times, serif;
+}
+#bild1{
+margin-left: 50px;
 }
 #third{
-  background-color: green;
-  height: 650px;
+  background: url(../imgs/bakgrund.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 750px;
 
 }
+#Infor{
+  margin: 0%;
+  display: flex;
+  margin-left: 800px;
+  padding-top: 70px;
+  font-family:  'Aldrich', Times, serif;
+  font-size: 35px;
+}
+#ruta3{
+  max-height: 400px;
+  max-width: 600px;
+  margin: 0%;
+  font-family:  'Aldrich', Times, serif;
+  font-size: 16px;
+float: left;
+}
+#gäng{
+margin-top: 50px;
+margin-left: 800px;
+}
+
 #fourth{
   background-color: black;
 height:650px;
@@ -80,9 +127,11 @@ height:650px;
   padding-top: 70px;
 margin: 0%;
 color:  white;
+font-family:  'Aldrich', Times, serif;
+
 }
 #window{
-  height:140; width:405px;
+   width:405px;
   overflow: hidden;
 position: relative;
 margin-left: 35%;
@@ -92,19 +141,32 @@ margin-left: 35%;
   position: relative;
 }
 #knapp1{
-  background:#6fa1f2;
+  color: white;
   position: relative;
-display: none;
-cursor: pointer;
+  display: none;
+  cursor: pointer;
+  margin-left: 300px;
+  font-family:  'Aldrich', Times, serif;
 }
 #knapp2{
-  background:#6fa1f2;
+  color: white;
   margin-left: 473px;
-  width: 380px;
-position: relative;
-display: none;
-cursor: pointer;
+  position: relative;
+  display: none;
+  cursor: pointer;
+  font-family:  'Aldrich', Times, serif;
+
 }
 #knappar{
   display:flex;
   position:relative;
+}
+#ruta4{
+height: 200px;
+width: 600px;
+background-color: black;
+color: white;
+text-align: center;
+margin-left: 370px;
+font-family:  'Aldrich', Times, serif;
+}
