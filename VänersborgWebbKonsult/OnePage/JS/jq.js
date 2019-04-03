@@ -5,11 +5,6 @@ $(document).ready(function () {
   $("#fieldset").show();
   $("nav").css({"display": "flex"});
   $("body").css({"overflow-y": "hidden"});
-//  $("#window").css({"overflow:":"hidden"});
-  //$("#window").css({"height:":"240px"});
-//  $("#window").css({"max-width:":"405px"});
-//height:240px; width:420px;
-
   $("#username").keyup(function () {
 
         var re = /^[A-Za-z0-9]{3,15}$/;
@@ -31,7 +26,6 @@ $(document).ready(function () {
             $("#text2").text("")
 
         }
-
 
         });
         $("#pass").keyup(function(){
@@ -56,12 +50,8 @@ $(document).ready(function () {
 
               }
 
-
               });
     });
-
-
-
 $("nav").mouseenter(function(){
 $("nav").css({opacity:1});
 
