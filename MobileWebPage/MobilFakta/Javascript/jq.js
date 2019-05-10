@@ -1,17 +1,49 @@
-const navToggle = document.querySelector(".nav");
+$(document).ready(function () {
 
-const navWrapper = document.querySelector(".nav-wrapper");
-const closeBtn = document.querySelector(".close");
+/* Ha show grejerna här, borde bara vara Navbar men kanske även Bilderna */
 
-//Click Event - Open
-navToggle.addEventListener("click", e => {
-  navWrapper.classList.remove("hide");
-  navWrapper.classList.add("scale-in-hor-left");
-  navWrapper.classList.add("show");
+
+
+
 });
-//Click Event - Close
-closeBtn.addEventListener("click", e => {
-  navWrapper.classList.remove("scale-in-hor-left");
-  navWrapper.classList.remove("show");
-  navWrapper.classList.add("hide");
+$("#Home").click(function(){
+
+      $('html, body').animate({
+          scrollTop: $("#main").offset().top
+      }, 2000);
+
+      navWrapper.classList.remove("scale-in-hor-left");
+      navWrapper.classList.remove("show");
+      navWrapper.classList.add("hide");
 });
+  $("#textRuta1").click(function(){
+
+        $('html, body').animate({
+            scrollTop: $("#ruta1").offset().top
+        }, 2000);
+
+        navWrapper.classList.remove("scale-in-hor-left");
+        navWrapper.classList.remove("show");
+        navWrapper.classList.add("hide");
+  });
+
+  $("#textRuta2").click(function(){
+
+        $('html, body').animate({
+            scrollTop: $("#ruta2").offset().top
+        }, 2000);
+
+        navWrapper.classList.remove("scale-in-hor-left");
+        navWrapper.classList.remove("show");
+        navWrapper.classList.add("hide");
+  });
+  $("#textRuta3").click(function(){
+
+        $('html, body').animate({
+            scrollTop: $("#ruta3").offset().top
+        }, 2000);
+
+        navWrapper.classList.remove("scale-in-hor-left");
+        navWrapper.classList.remove("show");
+        navWrapper.classList.add("hide");
+  });
