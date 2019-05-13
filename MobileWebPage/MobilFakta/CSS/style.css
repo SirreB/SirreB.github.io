@@ -47,6 +47,12 @@ background-color: green;
   margin-left: 15%;
 
 }
+#insidaDator{
+  display: none;
+}
+#kameraBild{
+  display: none;
+}
 #textRuta1{
   cursor: pointer;
   font-family: 'Aldrich', Times, serif;
@@ -64,7 +70,9 @@ font-size: 100%;
   font-family: 'Aldrich', Times, serif;
 padding-bottom: 5%;
 }
-
+#socDator{
+  display: none;
+}
 #textRuta2{
   cursor: pointer;
   font-family: 'Aldrich', Times, serif;
@@ -80,6 +88,15 @@ padding-bottom: 5%;
 }
 #displayBild{
   margin-left: 10%;
+}
+#displayDator{
+  display: none;
+}
+#displayPlatta{
+  display: none;
+}
+#batteri{
+  display: none;
 }
 #textRuta3{
   cursor: pointer;
@@ -112,6 +129,15 @@ height: 40%;
   margin-left: 12.5%;
 }
 
+#socbild{
+  margin-left: 10%;
+}
+#displayPlatta{
+  display: flex;
+}
+#displayBild{
+  display: none;
+}
 }
 
 
@@ -144,8 +170,38 @@ main{
   width: 65%;
 }
 h2{
-  font-size: 95%;
+  font-size: 100%;
 }
 #MainTitel{
   margin-bottom: 3%;
+}
+#insidaDator{
+display: flex;
+margin-left: 50%;
+}
+#insidaBild{
+  display: none;
+}
+#kameraBild{
+  display: flex;
+  margin-left: 50%;
+}
+#socbild{
+  display: none;
+}
+#socDator{
+  display: flex;
+  margin-left: 30%;
+}
+#displayDator{
+  display: flex;
+margin-left: 50%;
+  }
+#displayPlatta{
+  display: none;
+
+}
+#batteri{
+display: flex;
+}
 }
