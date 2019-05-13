@@ -55,8 +55,9 @@ body {
 }
 
 .side-nav {
+  transform: none;
+-webkit-backface-visibility: hidden;
     position: fixed;
-    display: block;
     top: 0;
     left: 0;
     width: 10rem;

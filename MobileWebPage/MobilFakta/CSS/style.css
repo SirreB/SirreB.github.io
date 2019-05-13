@@ -3,6 +3,9 @@
   font-size: 2em;
   width: 75%;
 }
+body{
+  repeat: no-repeat;
+}
 path{
   margin-left: 5%;
   margin-top: 5%;
