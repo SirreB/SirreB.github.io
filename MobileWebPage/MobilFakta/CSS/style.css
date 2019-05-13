@@ -36,7 +36,7 @@ cursor: pointer;
 }
 #ruta1{
 width: 100%;
-height: 900px;
+height: 960px;
 background-color: green;
   font-family: 'Aldrich', Times, serif;
   background: url('../Images/wallpaper2.jpeg');
@@ -62,6 +62,9 @@ font-size: 100%;
   background: url('../Images/white3.jpg');
   font-family: 'Aldrich', Times, serif;
 }
+#socbild{
+margin-left: 5%;
+}
 #textRuta2{
   cursor: pointer;
   font-family: 'Aldrich', Times, serif;
@@ -69,15 +72,24 @@ font-size: 100%;
 }
 #ruta3{
 width: 100%;
-height: 950px;
+height: 920px;
 background: url('../Images/white4.jpeg');
 background-size: cover;
   font-family: 'Aldrich', Times, serif;
+}
+#displayBild{
+  margin-left: 10%;
 }
 #textRuta3{
   cursor: pointer;
   font-family: 'Aldrich', Times, serif;
 
+}
+footer{
+width: 100%;
+height: 80px;
+background-color:#C0E5F7;
+font-family:'Aldrich', Times, serif ;
 }
 /*Platt formatet*/
 @media screen and (min-width: 700px) {
