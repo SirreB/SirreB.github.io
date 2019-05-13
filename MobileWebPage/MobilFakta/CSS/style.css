@@ -36,11 +36,12 @@ cursor: pointer;
 }
 #ruta1{
 width: 100%;
-height: 960px;
+height: 100%;
 background-color: green;
   font-family: 'Aldrich', Times, serif;
   background: url('../Images/wallpaper2.jpeg');
   background-size: cover;
+  padding-bottom: 5%;
 }
 #insidaBild{
   margin-left: 15%;
@@ -58,13 +59,12 @@ font-size: 100%;
 
 #ruta2{
   width: 100%;
-  height: 850px;
+  height: 110%;
   background: url('../Images/white3.jpg');
   font-family: 'Aldrich', Times, serif;
+padding-bottom: 5%;
 }
-#socbild{
-margin-left: 5%;
-}
+
 #textRuta2{
   cursor: pointer;
   font-family: 'Aldrich', Times, serif;
@@ -72,10 +72,11 @@ margin-left: 5%;
 }
 #ruta3{
 width: 100%;
-height: 920px;
+height: 100%;
 background: url('../Images/white4.jpeg');
 background-size: cover;
   font-family: 'Aldrich', Times, serif;
+padding-bottom: 5%;
 }
 #displayBild{
   margin-left: 10%;
@@ -87,7 +88,7 @@ background-size: cover;
 }
 footer{
 width: 100%;
-height: 80px;
+height: 100%;
 background-color:#C0E5F7;
 font-family:'Aldrich', Times, serif ;
 }
