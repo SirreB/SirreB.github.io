@@ -152,7 +152,19 @@ height: 40%;
 
 main{
   height:750px;
-
+  padding: 10px;
+}
+#ruta1{
+  padding: 10px;
+}
+#ruta2{
+  padding: 10px;
+}
+#ruta3{
+  padding: 10px;
+}
+footer{
+  padding: 10px;
 }
 #navDator{
   position: fixed;
@@ -206,5 +218,8 @@ margin-left: 50%;
 }
 #batteri{
 display: flex;
+}
+#wrapper{
+  margin-left : 18%;
 }
 }

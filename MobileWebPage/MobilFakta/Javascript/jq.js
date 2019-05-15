@@ -8,7 +8,7 @@ $(".nav").css({"display": "flex"});
 
 
 });
-$("#Home").click(function(){
+$("#datorHome").click(function(){
 
       $('html, body').animate({
           scrollTop: $("#main").offset().top
