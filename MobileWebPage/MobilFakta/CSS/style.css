@@ -128,6 +128,7 @@ main{
 #css_wrapper{
   background: url('../Images/css_sprites-min.png') 0 0;
 height: 40%;
+width: 550px;
   float: left;
   margin-left: 12.5%;
 }
@@ -182,7 +183,8 @@ footer{
 #css_wrapper{
 
   height: 45%;
-  width: 65%;
+  width: 900px;
+  float: left;
 }
 h2{
   font-size: 100%;
